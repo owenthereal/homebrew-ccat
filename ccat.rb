@@ -3,7 +3,7 @@ require "formula"
 class Ccat < Formula
   homepage "https://github.com/jingweno/ccat"
   url "https://github.com/jingweno/ccat/archive/v0.1.0.tar.gz"
-  sha1 "3d29f2204ed1b435408294b4ff96da2e6a47ce74"
+  sha1 "fc0a1a49ca81fc85b9d50f48d63182d507b4627c"
 
   depends_on "go" => :build
 
