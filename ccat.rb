@@ -8,7 +8,7 @@ class Ccat < Formula
   depends_on "go" => :build
 
   def install
-    system "./build"
+    system "./script/build"
     bin.install "ccat"
   end
 end
